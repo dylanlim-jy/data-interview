@@ -1,3 +1,14 @@
+# Introduction
+To clone this repo and use it on your local machine:
+
+```
+git clone https://github.com/dylanlim-jy/data-interview.git
+cd data-interview/
+```
+
+To attempt the interview questions on replit, visit https://replit.com/@dylanlim-jy/data-interview
+
+
 # Brief
 You are analysing the shipments processed by PostCo. Each shipment in `shipments.csv` is created by a shop.
 The shop's details, including their PostCo account managers are in `shops.csv`.
