@@ -1,0 +1,8 @@
+﻿status,description
+0,pending
+10,order_created
+20,dropped_off
+30,picked_up
+40,returned
+50,cancelled
+60,delivery_failed
