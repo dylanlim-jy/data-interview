@@ -1,4 +1,4 @@
-# Q1. [10 minutes] Provide the breakdown of return reasons by shop. Which shop had the highest number of faulty products?
+# Q1. Provide the breakdown of return reasons by shop. Which shop had the highest number of faulty products?
 
 # Imports
 

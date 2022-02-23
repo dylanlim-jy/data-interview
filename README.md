@@ -16,13 +16,15 @@ You are analysing the shipments processed by PostCo. Each shipment in `shipments
 The shop's details, including their PostCo account managers are in `shops.csv`.
 The `shipping_status.csv` has descriptions on each shipment status.
 
-Feel free to pause, Google up documentations, and ask questions. Don't forget to have fun!
+From the questions below, select **two** questions to work on in the next **40 minutes**.
 
-# Your tasks
-Q1. [10 minutes] Provide the breakdown of return reasons by shop. Which shop had the highest number of faulty products?
+Use the corresponding files (`q1.py`, `q2.py`, `q3.py`) to code your answers. Feel free to pause, Google up documentations, and ask questions. Don't forget to have fun!
 
-Q2. [10 minutes] Which account manager generated the most revenue on 17 February 2022? (Revenue = USD5 per returned shipment)
+# Questions
+Q1. Provide the breakdown of return reasons by shop. Which shop had the highest number of faulty products?
 
-Q3. [10 minutes] What is the average delivery time for each country? (Delivery time = interval between picked_up and returned)
+Q2. Which account manager generated the most revenue on 17 February 2022? (Revenue = USD5 per returned shipment)
 
-Q4. [BONUS] Can you spot any oddities about the data? How would you check for these?
+Q3. What is the average delivery time for each country? (Delivery time = interval between picked_up and returned)
+
+[BONUS] Can you spot any oddities about the data? How would you check for these?
