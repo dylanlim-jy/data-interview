@@ -4,6 +4,10 @@ To clone this repo and use it on your local machine:
 ```
 git clone https://github.com/dylanlim-jy/data-interview.git
 cd data-interview/
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
 
