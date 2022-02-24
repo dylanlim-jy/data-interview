@@ -1,5 +1,5 @@
 # Q3. Provide the average delivery time for each country in JSON format.
-# Delivery time = interval between picked_up and returned
+# Delivery time = interval between collected_at and returned_at for returned shipments
 
 # Imports 
 
