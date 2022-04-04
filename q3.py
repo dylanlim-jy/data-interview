@@ -1,17 +1,21 @@
-# Q3. Provide the average delivery time for each country in JSON format.
-# Delivery time = interval between collected_at and returned_at for returned shipments
+"""
+Q3. Inspect `shipments.csv` as a pandas DataFrame. 
+    Assign the shop ID with the highest number of faulty products to `shop`, 
+    and the number of faulty products for this shop to `products`.
+"""
 
-# Imports 
+import pandas as pd
 
+df = pd.read_csv(
+    'data/shipments.csv',
+    # ADD ANY ADDITIONAL ARGS 
+    )
 
-# Load dataframes
+# WRITE CODE HERE
 
+# Assign your answers to the following variables
+# shop = 
+# products = 
 
-# Filter for only returned shipments
-
-
-# Calculate delivery time grouped by country
-
-
-# Convert to JSON
-
+# Uncomment the line below to test your solution
+# from data.tests import test_q3; test_q3(shop, products)

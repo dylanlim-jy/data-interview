@@ -10,21 +10,25 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+For those taking this interview on Replit:
+
+```
+python3 -m pip install --upgrade pip
+pip install -r requirements.txt
+```
 
 # Brief
-You are analysing the shipments processed by PostCo. Each shipment in `shipments.csv` is created by a shop.
-The shop's details, including their PostCo account managers are in `shops.csv`.
-The `shipping_status.csv` has descriptions on each shipment status.
+The interview's first 2 questions will test basic Python programming.
+The interview's last 2 questions will test your problem solving skills with DataFrames.
 
-From the questions below, select **two** questions to work on in the next **40 minutes**.
+Use the corresponding files (`q1.py`, `q2.py`, `q3.py`, `q4.py`) to code your answers and run them in the terminal. Feel free to pause, Google up documentations, and ask questions. Don't forget to have fun!
 
-Use the corresponding files (`q1.py`, `q2.py`, `q3.py`) to code your answers. Feel free to pause, Google up documentations, and ask questions. Don't forget to have fun!
 
-# Questions
-Q1. Provide the breakdown of return reasons by shop. Which shop had the highest number of faulty products?
+# Topics covered in questions
+Q1. JSON string conversions, data structure manipulations.
 
-Q2. Which account manager generated the most revenue on 17 February 2022? (Revenue = USD5 per returned shipment)
+Q2. Function writing, handling dates in Python.
 
-Q3. What is the average delivery time for each country? (Delivery time = interval between picked_up and returned)
+Q3. Pandas Dataframe manipulation.
 
-[BONUS] Can you spot any oddities about the data? How would you check for these?
+Q4. Filtering & Timedelta calculations via DataFrames

@@ -1,17 +1,22 @@
-# Q2. Which account manager generated the most revenue on 17 February 2022?
-# Revenue = USD5 per shipment with a 'returned' status
+"""
+Q2. Write a function to add `n` days to each element in a `list` that is in a specific `year` and `month`.
+Test this function with the arguments n=5, list=date_list, year=2021, month=12
+"""
 
-# Imports
+from data.objects import date_list
+
+def add_days(n, list, y, m):
+    """Adds `n` number of days to each date element of `list`,
+    where the date is in the specified `year` and `month`.
+
+    Returns the original list with dates changed
+    """
+    # WRITE CODE HERE
+    
+    return list
 
 
-# Load dataframes
+output = add_days(5, date_list, 2021, 12)
 
-
-# Filter for 17 February 2022
-
-
-# Calculate revenue
-
-
-# Determine account manager
-
+# Uncomment the line below to test your solution
+# from data.tests import test_q2; test_q2(output)
